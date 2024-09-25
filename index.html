@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>
       <div class="navbar">
@@ -20,20 +21,85 @@
         <div class="nav-logo border">
           <div class="logo"></div>
         </div>
-        <!-- nav logo End -->
 
         <!-- nav address start -->
-        <div class="nav-address">
+        <div class="nav-address border">
           <p class="nav-delivery">Delivery To</p>
           <div class="nav-icon">
             <i class="fa-solid fa-location-dot"></i>
             <p class="nav-country">Pakistan</p>
           </div>
-         
         </div>
-        <!-- nav address End  -->
+
+        <!-- nav-Search Start -->
+
+        <div class="nav-search border">
+          <select name="" id="nav-search-select">
+            <option value="">ALL</option>
+          </select>
+          <input type="text" value="Search Amazon" class="nav-search-bar" />
+          <div class="nav-search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <!--nav-conutry-add feature Start -->
+
+        <div class="nav-country border">
+          <div class="nav-country-logo"></div>
+          <select class="nav-country-select">
+            <option value="Pak">PK</option>
+          </select>
+        </div>
+
+        <!-- nav-sign-in -->
+        <div class="nav-sign-in">
+          <p><span> Hello, sign in </span></p>
+          <select class="nav-second">
+            <option>Account & link</option>
+          </select>
+        </div>
+
+        <!-- nav- retrun -->
+        <div class="nav-sign-in">
+          <p><span> Retrun </span></p>
+          <p class="bloder">& Order</p>
+        </div>
+
+        <!-- nav-cart -->
+        <div class="nav-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+          cart
+        </div>
+      </div>
+
+      <!-- Second Panel Add -->
+
+      <div class="panel">
+        <div class="panel-icon">
+          <i class="fa-solid fa-bars"></i>
+          All
+        </div>
+        <div class="panel-ops">
+          <p>Today's Deals</p>
+          <p>Customer Service</p>
+          <p>Registry</p>
+          <p>Gift Cards</p>
+          <p>Sell</p>
+        </div>
+        <div class="panel-card-deals">Shop deals in Electronics</div>
       </div>
     </header>
+    <!-- header End -->
+
+    <!-- Hero Section Start -->
+    <div class="hero-section">
+      <p class="hero-msg">
+        You are on amazon.com. You can also shop on Amazon Pakistan for millions
+        of products with fast local delivery. 
+         <a href="">Click here to go to amazon.in</a>
+      </p>
+    </div>
   </body>
   <script src="app.js"></script>
 </html>
